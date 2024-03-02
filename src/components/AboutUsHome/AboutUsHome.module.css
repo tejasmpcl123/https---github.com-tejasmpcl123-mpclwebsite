@@ -29,7 +29,7 @@
     height: 64px;
 }
 .contain{
-    margin-top: 143px; 
+    margin-top: 110px; 
     margin-bottom: 143px;
 }
 
@@ -50,9 +50,10 @@
     margin-top: 15px;
     vertical-align: middle;
     width: 100%;
+    
 }
 .col1{
-    margin-top: 100px;
+    margin-top: 30px;
 }
 
 @media screen and (max-width: 1200px){

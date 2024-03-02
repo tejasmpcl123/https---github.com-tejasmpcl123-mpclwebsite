@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./ServiceHome.module.css";
 import { Link } from "react-router-dom";
-import { HiOutlineArrowNarrowRight } from "react-icons/hi";
+// import { HiOutlineArrowNarrowRight } from "react-icons/hi";
 
 const ServiceHome = (props) => {
   return (
@@ -13,7 +13,7 @@ const ServiceHome = (props) => {
                     color="#ff4c0a"
                 /> */}
         <div className={`${styles.box} user-select-none`}>
-          <img src={props.icon} alt="" className={`${styles.img} `} />
+          <img src={props.icon} alt="" className={`${styles.img}`}  />
           <p className={styles.heading}>{props.heading}</p>
           <p className={styles.text}>{props.content}</p>
         </div>

@@ -17,12 +17,12 @@ const Footer = () => {
         <div className="container">
           <div className="row">
             <div className={`col-lg-3 col-sm-6 ${styles.contain}`}>
-              <p className={styles.logo}>Miritus</p>
+              <p className={styles.logo}>MPCL</p>
               <p className={styles.text}>
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+                
               </p>
-              <p className={styles.text}>Lorem ipsum dolor sit amet</p>
-              <p className={styles.text}>Lorem ipsum dolor sit amet</p>
+              <p className={styles.text}></p>
+              <p className={styles.text}></p>
               <div className={styles.social_logo}>
                 <img src={fb} alt="fb" className={styles.img} />
                 <img src={linkdin} alt="in" className={styles.img} />
@@ -33,26 +33,27 @@ const Footer = () => {
             <div className={`col-lg-3 col-sm-6 ${styles.contain}`}>
               <p className={styles.head}>Services</p>
               <p className={styles.text}>
-                Mumbai (H.O.) 17/18, Navketan Estate, Opp. ONIDA, Mahakali Caves
-                Rd. Andheri (E), Mumbai – 400 093.
+                
               </p>
-              <p className={styles.text}>sales@mpcl.in</p>
-              <p className={styles.text}>022 40956301</p>
+              <p className={styles.text}>Our Services</p>
+              <p className={styles.text}>1</p>
+              
             </div>
 
             <div className={`col-lg-3 col-sm-6 ${styles.contain}`}>
               <p className={styles.head}>Head Office</p>
               <p className={styles.text}>
-                4517 Washington Ave. Manchester, Kentucky 39495
+              Mumbai (H.O.) 17/18, Navketan Estate, Opp. ONIDA, Mahakali Caves
+                Rd. Andheri (E), Mumbai – 400 093.
               </p>
               <p className={styles.text}>deanna.curtis@example.com</p>
-              <p className={styles.text}>(671) 555-0110</p>
+              <p className={styles.text}>022 40956301</p>
             </div>
 
             <div className={`col-lg-3 col-sm-6 ${styles.contain}`}>
-              <p className={styles.head}>Opening Hour</p>
-              <p className={styles.text}>Mon - Sat : 8:00 - 17:00</p>
-              <p className={styles.text}>Sun : Closed</p>
+              <p className={styles.head}></p>
+              <p className={styles.text}></p>
+              <p className={styles.text}></p>
             </div>
           </div>
         </div>
